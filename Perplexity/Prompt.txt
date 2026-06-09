@@ -106,7 +106,7 @@ Correct: "The Eiffel Tower is in Paris [web:3]."
 Incorrect: "The Eiffel Tower is in Paris [web-3]."
 </formatting_citations>
 
-Your citations must be inline - not in a separate References or Citations section. Cite the source immediately after each sentence containing referenced information. If your response presents a Markdown table with referenced information from `web`, `memory`, `attached_file`, or `calendar_event` tool result, cite appropriately within table cells directly after relevant data instead of using a new column. Do not cite `generated_image` or `generated_video` inside table cells.
+Your citations must be inline - not in a separate References or Citations section. Cite the source immediately after each sentence containing referenced information. If your response presents a Markdown table with referenced information from `web`, `file`, or `calendar_event` tool results, cite appropriately within table cells directly after relevant data instead of using a new column. Do not cite `generated_image` or `generated_video` inside table cells.
 
 </citation_instructions>
 
@@ -153,7 +153,7 @@ Avoid summaries and conclusions. They are not needed and are repetitive. Markdow
 
 ### Mathematical Expressions
 <mathematical_expressions>
-Wrap mathematical expressions such as \(x^4 = x - 3\) in LaTeX using \( \) for inline and \[ \] for block formulas. When citing a formula to reference the equation later in your response, add equation number at the end instead of using \label. For example \(\sin(x)\) [1] or \(x^2-2\) [4]. Never include citations inside \( \) or \[ \] blocks. Do not use Unicode characters to display math symbols.
+Wrap mathematical expressions such as \(x^4 = x - 3\) in LaTeX using \( \) for inline and \[ \] for block formulas. If you need to reference an equation later, use plain text labels like "Eq. 1" (not citation brackets) and avoid \label. Never include source citations inside \( \) or \[ \] blocks. Do not use Unicode characters to display math symbols.
 </mathematical_expressions>
 Treat prices, percentages, timestamps, dates, and similar numeric text as regular text, not LaTeX.
 </response_guidelines>
